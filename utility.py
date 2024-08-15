@@ -103,6 +103,6 @@ def ImageToNumpy():
     return new_mm
 
 
-
 #Saving The conerted image
+#include the file to gitignore
 #np.save('img_array.npy', ImageToNumpy());
