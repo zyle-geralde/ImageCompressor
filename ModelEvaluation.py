@@ -6,7 +6,7 @@ import os
 from sklearn.cluster import KMeans
 
 #image sample data
-image = Image.open("C:\\Users\\saylo\\OneDrive\\Desktop\\454676016_2644781709023650_8232006197011618377_n.jpg")
+image = Image.open("Images/cheetah-resize-224/00000002_224resized.png")
 
 #convert to RGB(3 dimensions)
 image_rgb = image.convert('RGB')
